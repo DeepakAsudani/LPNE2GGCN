@@ -6,7 +6,7 @@
 
 > **Paper:** *Predicting Probabilistic Links Using Node Embedding Using Graph Neural Network Approach*  
 > Riju Bhattacharya, Naresh Kumar Nagwani, Deepak Suresh Asudani, Rishav Dubey  
-> *IEEE Access, DOI: 10.1109/ACCESS.2024.0429000*
+> *IEEE Access, DOI: *
 
 ---
 
@@ -18,7 +18,7 @@ LPNE2GGCN is a graph neural network framework for **probabilistic link predictio
 2. **GraphSAGE** — inductive, scalable graph convolution (Mean / LSTM / Pooling aggregators)
 3. **Adam / Adadelta optimizers** — for enhanced convergence
 
-The model is evaluated on five real-world graph datasets: **Citeseer, Cora, Facebook, IMDB, DBLP**.
+The model is evaluated on six real-world graph datasets: **Citeseer, Cora, PubMed, Facebook, IMDB, DBLP**.
 
 ---
 
@@ -45,7 +45,7 @@ LPNE2GGCN/
 │   └── visualize.py            ← Plot accuracy / AUC / timing charts
 │
 ├── data/                       ← Auto-populated on first run
-│   └── (Citeseer, Cora, Facebook, IMDB, DBLP cached here)
+│   └── (Citeseer, Cora, PubMed, Facebook, IMDB, DBLP cached here)
 │
 ├── results/                    ← CSV logs & saved model checkpoints
 │
@@ -119,7 +119,7 @@ python main.py --dataset all --optimizer both
 | `--plot` | False | flag | Generate accuracy/AUC/timing charts |
 
 ---
-
+<!--
 ## Expected Results
 
 ### Table 3 — Accuracy (%)
@@ -186,7 +186,7 @@ Datasets are downloaded automatically via `torch_geometric` on first run.
 | DBLP | 371,080 | 1,049,866 | 13,477 | — | Bibliography |
 
 ---
-
+-->
 ## Hardware & Reproducibility
 
 All experiments in the paper were run on:
@@ -211,8 +211,8 @@ If you use this code, please cite the original paper:
   author  = {Bhattacharya, Riju and Nagwani, Naresh Kumar and
              Asudani, Deepak Suresh and Dubey, Rishav},
   journal = {IEEE Access},
-  year    = {2024},
-  doi     = {10.1109/ACCESS.2024.0429000}
+  year    = {},
+  doi     = {}
 }
 ```
 
