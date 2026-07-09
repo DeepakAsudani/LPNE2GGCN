@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.12%2B-orange)](https://pytorch.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+<!--[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)-->
 
 > **Paper:** *Predicting Probabilistic Links Using Node Embedding Using Graph Neural Network Approach*  
 > Riju Bhattacharya, Naresh Kumar Nagwani, Deepak Suresh Asudani, Rishav Dubey  
@@ -217,7 +217,8 @@ If you use this code, please cite the original paper:
 ```
 
 ---
-
+<!--
 ## License
 
-MIT License — see [LICENSE](LICENSE) for details.
+MIT License — see [LICENSE](LICENSE) for details. 
+-->
