@@ -1,4 +1,4 @@
-# LPNE2GGCN: Link Prediction via Node Embedding with Generalized Graph Convolutional Networks
+# LPNE2GGCN: Predicting Probabilistic Links Using Node Embedding and Graph Neural Network Approach
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.12%2B-orange)](https://pytorch.org)
