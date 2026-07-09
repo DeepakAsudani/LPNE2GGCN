@@ -206,8 +206,7 @@ If you use this code, please cite the original paper:
 
 ```bibtex
 @article{bhattacharya2024lpne2ggcn,
-  title   = {Predicting Probabilistic Links Using Node Embedding Using
-             Graph Neural Network Approach},
+  title   = {Predicting Probabilistic Links Using Node Embedding and Graph Neural Network Approach},
   author  = {Bhattacharya, Riju and Nagwani, Naresh Kumar and
              Asudani, Deepak Suresh and Dubey, Rishav},
   journal = {IEEE Access},
